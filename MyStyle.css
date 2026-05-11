@@ -1,0 +1,92 @@
+body 
+{
+    background-color: #ffffff;
+    color: #0d3141;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header
+ {
+    background-color: #0d3141;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a 
+{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #017f8d;
+}
+
+nav ul li a:hover 
+{
+    color: #f2c230;
+}
+
+.container 
+{
+    padding: 50px 20px;
+}
+
+#value 
+{
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.btn 
+{
+    background-color: #017f8d;
+    color: #ffffff;
+    border: 2px solid #f21a05;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover 
+{
+    background-color: #f2c230;
+    color: #0d3141;
+}
+
+/* Table Style for About Page */
+.grade-table 
+{
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.grade-table th, .grade-table td 
+{
+    padding: 12px;
+    border: 1px solid #f21a05;
+}
+
+footer 
+{
+    background-color: #ffffff;
+    border-top: 1px solid #f21a05;
+    padding: 20px 0;
+    width: 100%;
+}
